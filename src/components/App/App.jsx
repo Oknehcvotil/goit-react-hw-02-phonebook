@@ -73,7 +73,7 @@ class App extends Component {
           )}
           {contacts.length > 0 && (
             <ContactList
-              contacts={filter === '' ? contacts : filtredContacts}
+              contacts={filtredContacts}
               deleteContact={this.deleteContact}
             />
           )}
